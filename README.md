@@ -1,3 +1,16 @@
+I want to create basic website that show the results of which team is going on the which anyone can access.
+
+
+
+
+
+
+
+
+
+
+
+
 # College Football Game Predictions
 
 machine learning that predicts the outcome of any Division I college football game. Data are from 2015 - 2024 seasons.
@@ -53,6 +66,4 @@ Create a file called `api_key.yaml` and store the API key like this:
 ```bash
 api_key:
   Authorization: asdifnasdofnasdpvnapionmfaspidfasodnfkajdslmalskdm
-```
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
