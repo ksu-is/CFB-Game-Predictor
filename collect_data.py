@@ -3,6 +3,7 @@
 """
 html parse code - cfb
 """
+import os
 import requests
 from bs4 import BeautifulSoup
 from pandas import DataFrame, read_csv, concat
@@ -600,6 +601,12 @@ def get_teams():
         #select only the top 30 teams
         with open('top_30_teams.txt','r') as file:
              content = file.read()
+        #file_path = 'top_30_teams.txt'
+        #if not os.path.exists(file_path):
+         #   raise FileNotFoundError(f"File not found: {file_path}. Please ensure it is in the correct location.")
+        #with open(file_path, 'r') as file:
+        # Process the file
+        print(content)
         all_teams = content.split("\n")
         all_teams = [string for string in all_teams if string.strip() != ""]
 
